@@ -225,7 +225,7 @@
         /* --- PRODUCT GRID --- */
         .product-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(160px, 0.3fr));
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 25px;
             margin-bottom: 50px;
         }
@@ -247,6 +247,22 @@
         .product-img {
             height: 250px;
             background-color:#e1ffdd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #24806e;
+            font-weight: 600;
+            font-size: 0.8rem;
+            position: relative;
+            background-image: url('');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            /
+        }
+        .product-img2 {
+            height: 250px;
+            background-color:#d5d8cf;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -411,11 +427,12 @@
     <header>
         <div class="header-content">
             <div class="brand">
-                <a href="#" style="display: flex; align-items: center; text-decoration: none;">
+                <a href="https://sites.google.com/view/kelorku/Kelorku-home-page?authuser=0" style="display: flex; align-items: center; text-decoration: none;">
                     <img src="GambarKelorku/Kelorku_00.png" alt="Logo Kelorku" style="height: 40px; width: auto; margin-right: 10px; border-radius: 50%;">
+                    <span>UMKM Sulawesi</span>
                 </a>
                 <!--<h1>Kelorku</h1>-->
-                <span>UMKM Sulawesi</span>
+                <!--<span>UMKM Sulawesi</span>-->
             </div>
             <nav>
                 <ul>
@@ -502,7 +519,7 @@
             </div>
 
             <div class="product-card">
-                <div class="product-img" style="background-image: url('GambarKelorku/kelorku_5.jpeg');"></div>
+                <div class="product-img2" style="background-image: url('GambarKelorku/kelorku_5.jpeg');"></div>
                 <div class="card-body">
                     <div class="product-name"><s>Paket Rasa 3 Varian</s></div>
                     <div class="product-desc"><i class="fas fa-gift"></i> Hemat ongkir</div>
@@ -535,7 +552,7 @@
             </div>
 
             <div class="product-card">
-                <div class="product-img" style="background-image: url('GambarKelorku/kelorku_7.jpeg');">
+                <div class="product-img2" style="background-image: url('GambarKelorku/kelorku_7.jpeg');">
                     <span class="badge">-15%</span>
                 </div>
                 <div class="card-body">
